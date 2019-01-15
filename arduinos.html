@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Daniel's stuff</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+<div class="section arduinos">
+    <div class="container">
+    <div class="row">
+      <div class="two thirds column" style="margin-top: 25%">
+        <h4><b>Daniel Verschueren</b></h4>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+   <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="index.html#intro">Intro</a></li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#sc" data-popover="#scienceNavPopover">Science Projects</a>
+            <div id="scienceNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                <a class="popover-link" href="pubs.html#general">General</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="pubs.html#projects">Projects</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="pubs.html#publication">Publications</a>
+                </li>
+              </ul>
+            </div>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#ap" data-popover="#arduinoNavPopover">Arduino Projects</a>
+            <div id="arduinoNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                <a class="popover-link" href="arduinos.html#car">Car</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="arduinos.html#wallplotter">Wallplotter</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="arduinos.html#homelogger">Homelogger</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+    
+    <!-- stuff 
+      --------------------------------------------- -->
+    <div class="container" id="car">
+      <div class="row">
+      <div class="two-thirds column" style="margin-top: 2%">
+      <img class="carimg" src="images/carrie.jpg">
+      <h4>Tupperware car</h4>
+      <p>This is an embarassingly simple arduino car. All you really need is</p>
+          <ul>
+              <li>2 9V batteries</li>
+              <li>2 BYJ48 steppermotors</li>
+              <li>2 regular wheels</li>
+              <li>1 uniwheel</li>
+              <li>1 tupperware box</li>
+          </ul>
+      <p>All you need to do is hook it all up and you are done! 
+         <br>
+          <br>
+          ...Well, not that simple unfortunately. As it turns out, steppermotors are not really made to cranck at high speeds. As a result the native stepperlibraries and examples with the arduino don't work well. Max you get those to turn is around 4rpm. That's centuries. You need to use a separate library, like this one: . Now, the speed is still not great, up to 15rpm, but now your car will creep forward at last. You want to have it go faster, well don't use steppers!</p>
+      <hr />
+      </div>
+        </div>
+    </div>
+    
+        <hr />
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
