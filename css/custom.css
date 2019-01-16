@@ -85,7 +85,7 @@
   display: none; }
 
 /* Larger than phone */
-@media (min-width: 400px) {
+@media (min-width: 100px) {
       /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
