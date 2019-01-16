@@ -109,8 +109,8 @@
     max-height: none; }
 }
 
-/* Larger than tablet */
-@media (min-width: 750px) {
+/* Larger than tablet 750*/
+@media (min-width: 400px) {
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
