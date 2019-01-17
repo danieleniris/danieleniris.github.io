@@ -397,7 +397,7 @@ hr {
 /* values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/20180813_140203-lown.jpg');
+  background-image: url('../images/20180813_140203-lownn.jpg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
@@ -406,7 +406,7 @@ hr {
 /* pubs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .pubs {
-  background-image: url('../images/wools.png');
+  background-image: url('../images/wools_lownn.jpg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
@@ -415,7 +415,7 @@ hr {
 /* arduinos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .arduinos {
-  background-image: url('../images/cliffs.jpg');
+  background-image: url('../images/cliffs_lownn.jpg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
@@ -425,7 +425,7 @@ hr {
 /* image cat
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .cat {
-    margin-left: 65%;
+    margin-left: 80%;
     margin-top: 2%;
     position: absolute;
     height: auto; 
@@ -484,6 +484,16 @@ there.
   max-width: 300px; 
   max-height: 300px;
     }
+    
+    .cat {
+    margin-left: 65%;
+    margin-top: 2%;
+    position: absolute;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
 }
 
 /* Larger than desktop */
