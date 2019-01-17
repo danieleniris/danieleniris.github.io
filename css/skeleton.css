@@ -437,8 +437,11 @@ hr {
 /* image car
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .carimg {
-  margin-left: 18%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin-top: 0%;
+  margin-bottom: 3%;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -470,7 +473,7 @@ there.
 /* Larger than tablet */
 @media (min-width: 750px) {
   .carimg{
-      margin-left: 75%; 
+  margin-left: 75%; 
   margin-bottom: 7%; 
   border: 1px solid #ddd;
   border-radius: 4px;
