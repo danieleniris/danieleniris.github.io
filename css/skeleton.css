@@ -535,10 +535,7 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-    @media (min-width: 1000px) {
      .car_over {
-  display: flex;
-  justify-content: center;
   margin-left: 0%;
   width: 100%;
   margin-top: 0%;
@@ -546,11 +543,11 @@ there.
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  position: relative;
+  position: relative
   width: auto;
   height: auto;
-  max-width: 300px; 
-  max-height:300px;
+  max-width: 500px; 
+  max-height:500px;
 }   
 }
 
@@ -596,24 +593,7 @@ there.
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
-     .car_over {
-  display: flex;
-  justify-content: center;
-  margin-left: 0%;
-  width: 100%;
-  margin-top: 0%;
-  margin-bottom: 3%;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  position: relative;
-  width: auto;
-  height: auto;
-  max-width: 500px; 
-  max-height:500px;
-}   
-}
+@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}

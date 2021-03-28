@@ -145,20 +145,15 @@ which are now written in the coordinate system where the previous segment aligns
             <br>
 Effectively we know the mismatch in alignment of each segment \( {\bf S}_j \) with its next neighbox \( {\bf S}_{j+1} \) and in order to visualise the chain we will need to put our first segment on our global coordinate system (or lab frame if you like) and iteratively add every next segment onto our growing chain. We start off with the first segment \( {\bf S}_0 \) along some axis, let's say one \( \alpha = 30^\circ \) from the x-axis: its head coordinates are \( (x'_0, y'_0) = (b\cos(\alpha), b\sin(\alpha))\). We are free to choose this first guy, as there is no segment yet to align to. The next segment \( {\bf S}_1 \) has an coordinates \((x_1, y_1)\) in the frame of \( {\bf S}_0 \), as determined before. In order to make sure that we add this next element in the correct direction, we need to rotate \((x_1, y_1)\) along \( (x'_0, y'_0)\) so that it aligns with \({\bf S}_0\) in our global coordinate system. This is done with a matrix operation on \((x_1, y_1)\):
               $$\begin{gather}
-              \begin{pmatrix}
-      \cos(\alpha) & \sin(\alpha) \\
-      -\sin(\alpha) & \cos(\alpha)
-              \end{pmatrix}
-              \begin{pmatrix}
-              x1 \\ y1
-              \end{pmatrix}
+              (x'_1, y'_1)
+              
               =
               \begin{pmatrix}
       {x'_0 \over b} & {y'_0 \over b} \\
       -{y'_0 \over b} & {x'_0 \over b} 
               \end{pmatrix}
               \begin{pmatrix}
-              x1 \\ y1
+              x_1 \\ y_1
               \end{pmatrix}
               \end{gather}
               $$
