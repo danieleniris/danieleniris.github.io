@@ -127,7 +127,7 @@ Ok, so we want to find a realistic configuration for our DNA chain, given certai
             \[p(E) = {\exp(-{E \over k_BT}) \over \int \exp(-{E \over k_BT}){\rm d}E} ,\] 
 Where the integral runs over all possible energy penalties. In our case, \(E_j\) can run from \(0 \) (fully aligned) to \( 2{J_D \over k_BT}\) (fully anti-aligned). Evaluating the integral, where \(E\) runs from \(0\) to \(2 \), this probability becomes:
               \[p(E_j) = {\exp(-{E_j \over k_BT}) \over  k_BT(1-\exp(-2{J_D \over k_BT})} .\]
-In order to draw a (\cos(\theta_j) = {\bf S}_j\cdot{\bf S}_{j+1}\) from this distribution, we can draw a sample \( Z_j \) from a uniform distribution and transform it through the inverse of the cumulative distribution of \( p(E_j)\):
+In order to draw a \(\cos(\theta_j) = {\bf S}_j\cdot{\bf S}_{j+1}\) from this distribution, we can draw a sample \( Z_j \) from a uniform distribution and transform it through the inverse of the cumulative distribution of \( p(E_j)\):
              $$
                 \begin{cases} 
                 Z_j \sim (0,1) \\
