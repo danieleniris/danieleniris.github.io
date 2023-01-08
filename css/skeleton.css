@@ -421,7 +421,7 @@ hr {
 /* pubs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .pubs {
-  background-image: url('../images/wools_lownn.jpg');
+  background-image: url('../images/alps.jpg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
@@ -430,7 +430,7 @@ hr {
 /* arduinos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .arduinos {
-  background-image: url('../images/cliffs_lownn.jpg');
+  background-image: url('../images/berg.jpg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
@@ -543,7 +543,7 @@ there.
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  position: relative
+  position: relative;
   width: auto;
   height: auto;
   max-width: 500px; 
