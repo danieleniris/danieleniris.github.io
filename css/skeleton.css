@@ -421,7 +421,7 @@ hr {
 /* pubs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .pubs {
-  background-image: url('../images/alps.jpg');
+  background-image: url('../images/alps.jpeg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
@@ -431,6 +431,15 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .arduinos {
   background-image: url('../images/berg.jpg');
+  background-size: cover;
+  color: #FFF;
+  padding-bottom: 5rem;
+}
+
+/* arduinos
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.details {
+  background-image: url('../images/PXL_20211229_123128881.jpg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
@@ -563,8 +572,8 @@ there.
   position: absolute;
   width: auto;
   height: auto;
-  max-width: 300px; 
-  max-height: 300px;
+  max-width: 250px; 
+  max-height: 250px;
     }
     
     .cat {
