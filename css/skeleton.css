@@ -397,6 +397,21 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+.gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  height: auto;
+  width: auto; 
+  max-width: 400px;
+  max-height: 400px;}
+
+.mapouter{
+  position: relative;
+  text-align: right;
+  height: auto;
+  width: auto;}
+ 
+
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
