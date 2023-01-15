@@ -399,6 +399,7 @@ hr {
 
 .gmap_canvas {
   overflow: hidden;
+  justify-content: center;
   background: none!important;
   height: auto;
   width: auto; 
@@ -406,6 +407,7 @@ hr {
   max-height: 400px;}
 
 .mapouter{
+  justify-content: center;
   position: relative;
   text-align: right;
   height: auto;
@@ -454,7 +456,7 @@ hr {
 /* arduinos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .details {
-  background-image: url('../images/PXL_20211229_123128881.jpg');
+  background-image: url('../images/try4.jpg');
   background-size: cover;
   color: #FFF;
   padding-bottom: 5rem;
